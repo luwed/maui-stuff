@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiProject.MainPage">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Test" />
+    </ContentPage.ToolbarItems>
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"
